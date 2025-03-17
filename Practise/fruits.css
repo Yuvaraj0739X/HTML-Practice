@@ -1,0 +1,26 @@
+.s1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.s2{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+}
+
+.s3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+#all{
+    width: max-content;
+    height: max-content;
+    background-color: yellow;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+}
